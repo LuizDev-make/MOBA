@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prova Mobile</string>
+    <string name="logar">logar</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="lembre_de_mim">Lembre de mim</string>
+    <string name="sa_decerta">SaúdeCerta</string>
+</resources>
+

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Prova Mobile</string>
+    <string name="logar">logar</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="lembre_de_mim">Lembre de mim</string>
+    <string name="sa_decerta">SaúdeCerta</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="hint_email" translatable="false">E-mail</string>
+    <string name="hint_senha" translatable="false">Senha</string>
+    <string name="botao_entrar" translatable="false">Entrar</string>
+    <string name="cadastro" translatable="false">Cadastre-se</string>
+    <string name="locais_de_treino" translatable="false">Locais de Treino</string>
+    <string name="alongamentos" translatable="false">Alongamentos</string>
+    <string name="duvidas" translatable="false">Dúvidas</string>
+    <string name="text_Procura" translatable="false">O que você procura?</string>
+    <string name="cadast" translatable="false">Cadastre-se</string>
+    <string name="saudecerta">SaúdeCerta</string>
+    <string name="hint_name">Nome\n</string>
+    <string name="text_cpf">CPF</string>
+    <string name="hint_senhaConfirmar">Repitir Senha</string>
+    <string name="cadas">Cadastro</string>
+    <string name="todoid">TODO</string>
+    <string name="tod">TODO</string>
+    <string name="treinos">Treinos</string>
+    <string name="todos">TODO</string>
+    <string name="todoss">TODO</string>
+
+
+</resources>

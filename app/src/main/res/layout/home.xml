@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Green"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/saudecerta"
+        android:textColor="#E1BEE7"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:id="@+id/pesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/white"
+        android:queryHint="pesquisar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Logo" />
+
+
+    <TextView
+        android:id="@+id/procurar"
+        android:layout_width="395dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="40dp"
+        android:gravity="start"
+        android:text="@string/text_Procura"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pesquisar"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="119dp"
+        android:layout_height="106dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="236dp"
+        tools:srcCompat="@drawable/treino"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todoid" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="119dp"
+        android:layout_height="106dp"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="236dp"
+        tools:srcCompat="@drawable/exercicios_de_alongamento"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/tod" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="117dp"
+        android:layout_height="107dp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:srcCompat="@drawable/gps"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todos" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="116dp"
+        android:layout_height="103dp"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:srcCompat="@drawable/perguntas_e_respostas"
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/todoss" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/treinos"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="364dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:text="@string/alongamentos"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/locais_de_treino"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="553dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/duvidas"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="553dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
